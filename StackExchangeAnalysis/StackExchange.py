@@ -122,9 +122,7 @@ def topQuestions():
 			file = "./Questions/" + file
 			P = json.load(open(file))
 			for index in P['items']:
-				if i== 20 :
-					break
-				i=i+1
+				
 				question = index['title']
 				userid=str(index['owner']['user_id'])
 				url2='https://api.stackexchange.com/2.2/users/'+userid+'?order=desc&sort=reputation&site=stackoverflow&key=iN)OEQlB1cMs1zNLgT4piQ((&'
@@ -140,6 +138,7 @@ def topQuestions():
 	for item in temp_list:
 		print (item)
 		print(questions[item])
+			
 
 	
 
