@@ -25,7 +25,47 @@ python Analysis_1.py
 
 Outout CSV file :
 NORMALIZED OUTPUT FOR 3 CITIES
- dayBrooklynQueensBronx1Monday54.4439174.8603248.497075Tuesday60.5142575.6213749.572346Wednesday65.8512874.1990947.727274Thursday70.1916175.772147.434020Friday99.944671001002Saturday10076.0323768.866083Sunday90.4104481.5245170.47898
+ 
+day
+Brooklyn
+Queens
+Bronx
+1
+Monday
+54.44391
+74.86032
+48.49707
+5
+Tuesday
+60.51425
+75.62137
+49.57234
+6
+Wednesday
+65.85128
+74.19909
+47.72727
+4
+Thursday
+70.19161
+75.7721
+47.43402
+0
+Friday
+99.94467
+100
+100
+2
+Saturday
+100
+76.03237
+68.86608
+3
+Sunday
+90.41044
+81.52451
+70.47898
+
 
 
 
@@ -64,7 +104,7 @@ Insights – As we can the common trend for all the days is the trips decrease fro
 
 ## Analysis 3
 
-**When is the trip time maximum and minimum **
+**When is the trip time maximum and minimum?**
 
 In Analysis 3, I evaluated trip timings for trip from midtown to La Guardia Airport at different time of the day. 
 To run the code :-
@@ -112,7 +152,8 @@ In Analysis 5, I have joined taxi trip data set with weather data set to obtain 
 
 To run the code :-
 ```
-python Analysis_5.py JUN-2015```
+python Analysis_5.py JUN-2015
+```
 
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Analysis_5.jpeg)
 
