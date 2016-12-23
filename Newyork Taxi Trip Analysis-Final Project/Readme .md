@@ -24,9 +24,6 @@ python Analysis_1.py
 ```
 
 Outout CSV file :
-NORMALIZED OUTPUT FOR 3 CITIES
-
-![alt tag] (https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpg)
 
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Bronx_analysis1.JPG)
 
@@ -34,6 +31,9 @@ NORMALIZED OUTPUT FOR 3 CITIES
 
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Queens_analysis1.JPG)
 
+NORMALIZED OUTPUT FOR 3 CITIES
+
+![alt tag] (https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpg)
 
 Insights – As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55 for Brooklyn 75 for queens and 50 % for Bronx and on Friday the traffic reaches its maximum for Friday and then decreases for Sunday and Monday.
 As expected Brooklyn is the busiest city with maximum of 450000 trips then Queens and then Bronx.
