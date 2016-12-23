@@ -4,7 +4,7 @@ New York Taxi Trip Data Analysis using  Python
 
 ## About the Data
 
-**TLC Trip Data** contains records of yellow and green taxi operated around newyork. Each Csv is a 2.2 gb file containing details about pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.TLC trip data sets. Pick up and drop locations are in longitudes and longitudes. I used geo reverse coding using google api to extract city values but google api has a limit of 25000 request and for converting  coordinates of one file will require over 1000000 requests. Further, I have used weather data set from National Centres For Environmental Information to obtain hourly temperatures for jan 2010. 
+**TLC Trip Data** contains records of yellow and green taxi operated around newyork. Each Csv is a 2.2 gb file containing details about pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.TLC trip data sets pick up and drop locations are in longitudes and longitudes. I used geo reverse coding using google api to extract city values but google api has a limit of 25000 request and for converting  coordinates of one file will require over 1000000 requests. Further, I have used weather data set from National Centres For Environmental Information to obtain hourly temperatures for jan 2010. 
 
 - [TLC Trip Data] (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 - [Weather Data] (https://www.ncdc.noaa.gov/)
