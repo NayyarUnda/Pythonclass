@@ -16,7 +16,7 @@ New York Taxi Trip Data Analysis using  Python
 
 **Trend of number of taxi trips for different days of the week for different cities**
 
-In Analysis 1, I analyzed the taxi trips taken during the whole month, grouped these trips by days of week to calculate trip counts for 3 different cities(Brooklyn,Queens County,Bronx).
+In Analysis 1, I analyzed the taxi trips taken during the whole month, grouped these trips by days of week to calculate trip counts for three different cities(Brooklyn,Queens County,Bronx). I analyzed the trends for the three cities seperately and then also plotted their normalized percentage values to compare their trends against each other. 
 
 To run the script
 ```
@@ -25,24 +25,26 @@ python Analysis_1.py
 
 Outout CSV file :
 
-![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Bronx_analysis1.JPG)
+I seperated the data for brooklyn in a data frame and summed up  trips taken to perform taxi trips by day of week analysis.As we can see the highest number of trips taken are 450000 on friday and saturday and minimum of 250000 on monday.
 
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Brooklyn_analysis1.JPG)
 
+The highest number of trips are 440000 on friday and saturday and minim
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Queens_analysis1.JPG)
+![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Bronx_analysis1.JPG)
 
 NORMALIZED OUTPUT FOR 3 CITIES
 
 ![alt tag] (https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpg)
 
-Insights – As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55 for Brooklyn 75 for queens and 50 % for Bronx and on Friday the traffic reaches its maximum for Friday and then decreases for Sunday and Monday.
+Insights – As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55% for Brooklyn 75% for queens and 50 % for Bronx, on Friday, the number of trips taken is maximum which then decreases for Saturday and Sunday (higher than mon, tue and wednesday).
 As expected Brooklyn is the busiest city with maximum of 450000 trips then Queens and then Bronx.
 
 
 
 ## Analysis 2
 
-**Which is the busiest hour of the day and what is the number of trips?**
+**Which is the busiest hour of the day, what is the number of trips, and how it varies with different days**
 
 In Analysis 2, I analyzed the Nyc trip record data for hourly traffic. I filtered the data for each day and grouped by hour.
 To run the script :-
@@ -53,7 +55,12 @@ python Analysis_2.py
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Analysis_2.jpeg)
 
 
-Insights – As we can the common trend for all the days is the trips decrease from 12 am to morning 5 pm and then increase from morning 6 am to 11 pm. As expected trips maximum trips are taken on Friday evening and Saturday evening.
+Insights – 
+1. Trends for Monday, Tuesday, Wednesday, and Thursday are very similar.
+2. Saturday and Sunday have similar trend.
+3. We can see a common trend for all the days, the number of trips decrease from 12 am to morning 5 pm and then increase from morning 6 am to 11 pm. 
+4. As expected we see maximum trip activity on Friday.
+5. On Friday, Saturday and Sunday, we see higher activity after midnight.
 
 
 ## Analysis 3
