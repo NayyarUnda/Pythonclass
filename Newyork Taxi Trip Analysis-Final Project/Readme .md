@@ -65,9 +65,9 @@ Insights –
 
 ## Analysis 3
 
-**When is the trip time maximum and minimum?**
+**When is the trip time maximum and minimum, when going from Midtown to La Guardia airport?**
 
-In Analysis 3, I evaluated trip timings for trip from midtown to La Guardia Airport at different time of the day. 
+In Analysis 3, I evaluated trip timings for trip from midtown to La Guardia Airport at different times of the day. 
 To run the code :-
 ```
 python Analysis_3.py
@@ -106,7 +106,7 @@ Insights - We can see that maximum tips have been given by riders to New York ci
 ## Analysis 5
 
 
-**How Does weather affect the number of trips ?**
+**How does weather affect the number of trips ?**
 
 In Analysis 5, I have joined taxi trip data set with weather data set to obtain number of trips taken during different temperatures. It contains hourly normal temperatures from January 2010
 
@@ -119,7 +119,7 @@ python Analysis_5.py JUN-2015
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Analysis_5.jpeg)
 
 
-Insights -  Number of trips increase between temperature range of 32 to 36 degree Farhenheit.
+Insights -  Number of trips increase between temperature range of 32 to 36 degree Farhenheit for the trips originating from La Guardia Airport.
 
 
 
