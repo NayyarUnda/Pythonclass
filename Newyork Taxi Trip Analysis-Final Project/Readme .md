@@ -27,11 +27,13 @@ Outout CSV file :
 
 I seperated the data for brooklyn in a data frame and summed up  trips taken to perform taxi trips by day of week analysis.As we can see the highest number of trips taken are 450000 on friday and saturday and minimum of 250000 on monday.
 
-![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Brooklyn_analysis1.JPG)
+![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Brooklyn_analysis1.jpeg)
 
-The highest number of trips are 440000 on friday and saturday and minim
-![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Queens_analysis1.JPG)
-![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Bronx_analysis1.JPG)
+The highest number of trips for Queens County are 300000 on friday and are around 230000 for rest of days.
+![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/queens_analysis1.jpeg)
+
+As expected Bronx also has its maximum number of trips on friday around 9000. Its minimum is 4000.
+![alt tag](https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Bronx_analysis1.jpeg)
 
 NORMALIZED OUTPUT FOR 3 CITIES
 
