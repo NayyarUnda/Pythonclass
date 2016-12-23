@@ -25,52 +25,6 @@ python Analysis_1.py
 
 Outout CSV file :
 NORMALIZED OUTPUT FOR 3 CITIES
- 
-day
-Brooklyn
-Queens
-Bronx
-1
-Monday
-54.44391
-74.86032
-48.49707
-5
-Tuesday
-60.51425
-75.62137
-49.57234
-6
-Wednesday
-65.85128
-74.19909
-47.72727
-4
-Thursday
-70.19161
-75.7721
-47.43402
-0
-Friday
-99.94467
-100
-100
-2
-Saturday
-100
-76.03237
-68.86608
-3
-Sunday
-90.41044
-81.52451
-70.47898
-
-
-
-
-
-
 
 ![alt tag] (https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpg)
 
@@ -81,7 +35,7 @@ Sunday
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Queens_analysis1.JPG)
 
 
-Insights – As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55 for Brooklyn 75 for queens and 50 % for Bronx and on Friday the traffic reaches its maximum for Friday and then decreases for Sunday and Monday.
+Insights â€“ As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55 for Brooklyn 75 for queens and 50 % for Bronx and on Friday the traffic reaches its maximum for Friday and then decreases for Sunday and Monday.
 As expected Brooklyn is the busiest city with maximum of 450000 trips then Queens and then Bronx.
 
 
@@ -99,7 +53,7 @@ python Analysis_2.py
 ![alt tag]( https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/Analysis_2.jpeg)
 
 
-Insights – As we can the common trend for all the days is the trips decrease from 12 am to morning 5 pm and then increase from morning 6 am to 11 pm. As expected trips maximum trips are taken on Friday evening and Saturday evening.
+Insights â€“ As we can the common trend for all the days is the trips decrease from 12 am to morning 5 pm and then increase from morning 6 am to 11 pm. As expected trips maximum trips are taken on Friday evening and Saturday evening.
 
 
 ## Analysis 3
