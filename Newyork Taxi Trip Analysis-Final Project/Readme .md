@@ -4,19 +4,19 @@ New York Taxi Trip Data Analysis using  Python
 
 ## About the Data
 
-**TLC Trip Data** contains records of yellow and green taxi operated around newyork. Each Csv is a 2.2 gb file containing details about pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.TLC trip data sets pick up and drop locations are in longitudes and longitudes. I used geo reverse coding using google api to extract city values but google api has a limit of 25000 request and for converting  coordinates of one file will require over 1000000 requests. Further, I have used weather data set from National Centres For Environmental Information to obtain hourly temperatures for jan 2010. 
+**TLC Trip Data** contains records of yellow and green taxi operated around newyork. Each CSV is a 2.2 gb file containing details about pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. TLC trip data sets pick up and drop locations are in longitudes and longitudes. I used georeverse coding using google api to map longitudes and latitudes to city values.I used it for the fourth analysis,however, it has a limit of 25000 request per day. For remaining analysis, 25000 doesn't meet the requirement as data is too huge. So I used a bounding box approach and extracted the bounding box for the cities and used it to identify the latitude,longitude corrosponding to the cities. I extracted the bounding box using google maps. Further, I have used weather data set from National Centres For Environmental Information to obtain hourly temperatures for jan 2010. 
 
 - [TLC Trip Data] (http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 - [Weather Data] (https://www.ncdc.noaa.gov/)
 - [google api] (https://developers.google.com/maps/documentation/geocoding/start)
 
-
+.
 
 ## Analysis 1
 
-**Which city has the maximum taxi traffic and at which day of week ?**
+**Trend of number of taxi trips for different days of the week for different cities**
 
-In Analysis 1, I analyzed the taxi trips taken during the whole month, Grouped these trips by days of week to calculate trip counts.
+In Analysis 1, I analyzed the taxi trips taken during the whole month, grouped these trips by days of week to calculate trip counts for 3 different cities(Brooklyn,Queens County,Bronx).
 
 To run the script
 ```
