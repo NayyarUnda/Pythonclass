@@ -39,7 +39,7 @@ As expected Bronx also has its maximum number of trips on friday around 9000. It
 
 NORMALIZED OUTPUT FOR 3 CITIES
 
-![alt tag] (https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpg)
+![alt tag](https://github.com/NayyarUnda/Pythonclass/blob/master/Newyork%20Taxi%20Trip%20Analysis-Final%20Project/output%20graphs/analysis1.jpeg)
 
 Insights – As visible in the normalized graph the pattern of taxi trips for Monday ,Tuesday and Wednesday is same for the 3 cities 55% for Brooklyn 75% for queens and 50 % for Bronx, on Friday, the number of trips taken is maximum which then decreases for Saturday and Sunday (higher than mon, tue and wednesday).
 As expected Brooklyn is the busiest city with maximum of 450000 trips then Queens and then Bronx.
