@@ -32,3 +32,4 @@ twitter_analysis.py -h
 -	Finding sentiment in Tweets. Analyzing overall sentiment of the day.
 -	Identifying which states tweet more on the topic
 -	Identifying influential tweets for each state 
+
